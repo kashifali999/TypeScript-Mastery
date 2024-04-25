@@ -20,16 +20,36 @@
 //     console.log("Logic false");
 // }
 //-------------------------------------------------
-let myPercentage = 90;
+// let myPercentage = 90;
 
-if ( myPercentage > 80 ) 
-    console.log("your grade is: A+")
+// if ( myPercentage > 80 ) 
+//     console.log("your grade is: A+")
     
-else if ( myPercentage > 70 ) 
-    console.log("your grade is: A");
+// else if ( myPercentage > 70 ) 
+//     console.log("your grade is: A");
 
-else if ( myPercentage > 60 ) 
-    console.log("your grade is: B");
+// else if ( myPercentage > 60 ) 
+//     console.log("your grade is: B");
 
-else 
-    console.log("fail!!!");
+// else 
+//     console.log("fail!!!");
+//--------------------------------------------------
+let isHungry = false
+let snack = isHungry ? "Biryani" : "Water"
+console.log(snack);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
