@@ -1,3 +1,4 @@
+// // Slide # 02 (52) - Type inference
 // Strongly typed syntax
 let a:string = "Kashif Ali"
 let b:number = 39

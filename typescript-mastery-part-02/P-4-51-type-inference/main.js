@@ -1,3 +1,4 @@
+// // Slide # 02 (52) - Type inference
 // Strongly typed syntax
 var a = "Kashif Ali";
 var b = 39;
