@@ -1,4 +1,4 @@
-// // Slide # 02 (61) - Type inference
+// Slide # 02 (61) - Type inference
 let accountBalance = 10000
 const accountNumber = 123456789
 
