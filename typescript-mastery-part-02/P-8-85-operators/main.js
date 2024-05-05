@@ -30,3 +30,19 @@ var totalApples2 = 20;
 var bags2 = 4;
 var eachBag = totalApples2 / bags2;
 console.log(eachBag);
+// Slide # 02 (105) - Operators exponantion
+console.log("Exponantion");
+console.log(Math.pow(5, 2));
+// Slide # 02 (110) - Operators exponantion
+var layers = 5;
+var apples2 = 5;
+var power = Math.pow(layers, 2);
+console.log(power);
+// Slide # 02 (112) - Operators modulus
+console.log("Modulus");
+console.log(5 % 2);
+// Slide # 02 (112) - Operators modulus
+var apples3 = 5;
+var bags3 = 2;
+var reminder = apples3 % bags3;
+console.log(reminder);

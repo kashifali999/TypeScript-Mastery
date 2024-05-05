@@ -30,3 +30,19 @@ let totalApples2:number = 20
 let bags2:number = 4
 let eachBag:number = totalApples2 / bags2
 console.log(eachBag)
+// Slide # 02 (105) - Operators exponantion
+console.log("Exponantion")
+console.log(5**2)
+// Slide # 02 (110) - Operators exponantion
+let layers:number = 5
+let apples2:number = 5
+let power:number = layers**2
+console.log(power)
+// Slide # 02 (112) - Operators modulus
+console.log("Modulus")
+console.log(5 % 2)
+// Slide # 02 (112) - Operators modulus
+let apples3:number = 5
+let bags3:number = 2
+let reminder:number = apples3 % bags3
+console.log(reminder)
