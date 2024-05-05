@@ -41,7 +41,7 @@ console.log(power)
 // Slide # 02 (112) - Operators modulus
 console.log("Modulus")
 console.log(5 % 2)
-// Slide # 02 (112) - Operators modulus
+// Slide # 02 (115) - Operators modulus
 let apples3:number = 5
 let bags3:number = 2
 let reminder:number = apples3 % bags3
