@@ -11,5 +11,12 @@ else if (result.operator === "Multiply")         {console.log(result.firstNumber
 else if (result.operator === "Divide")           {console.log(result.firstNumber / result.secondNumber)}
 else if (result.operator === "Exponentiation")   {console.log(result.firstNumber ** result.secondNumber)}
 else if (result.operator === "Modulus")          {console.log(result.firstNumber % result.secondNumber)}
-else if (result.operator === "BMI")              {console.log(result.firstNumber / (result.secondNumber * result.secondNumber))}
+//else if (result.operator === "BMI")              {console.log(result.firstNumber / (result.secondNumber * result.secondNumber))}
 
+else if (result.operator === "BMI")              {let calBmi = await inquierer.prompt([
+    {name:"weightInKg", type:"number", message:"Enter weight in kg"},
+    {name:"heightInMeters", type:"number", message:"Enter height in meters"}])
+
+    {console.log(calBmi.weightInKg / (calBmi.heightInMeters * calBmi.heightInMeters))}
+
+}
