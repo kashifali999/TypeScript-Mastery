@@ -24,7 +24,7 @@ else {
     }
 }
 if (selCal.calculationType.basicCal === "Add") {
-    console.log(selCal.calculationType.basicCal.firstNumber + selCal.calculationType.basicCal.secondNumber);
+    console.log(selCal.basicCal.firstNumber + selCal.calculationType.basicCal.secondNumber);
 }
 else if (selCal.calculationType.basicCal === "Subtract") {
     console.log(selCal.calculationType.basicCal.firstNumber - selCal.calculationType.basicCal.secondNumber);

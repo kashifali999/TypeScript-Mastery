@@ -20,7 +20,7 @@ else                                                          {let bmi = await i
     {console.log(bmi.weightInKg / (bmi.heightInMeters * bmi.heightInMeters))}}
 
 
-    if      (selCal.calculationType.basicCal === "Add")              {console.log(selCal.calculationType.basicCal.firstNumber + selCal.calculationType.basicCal.secondNumber)}
+    if      (selCal.calculationType.basicCal === "Add")              {console.log(selCal.basicCal.firstNumber + selCal.calculationType.basicCal.secondNumber)}
     else if (selCal.calculationType.basicCal === "Subtract")         {console.log(selCal.calculationType.basicCal.firstNumber - selCal.calculationType.basicCal.secondNumber)}
     else if (selCal.calculationType.basicCal === "Multiply")         {console.log(selCal.calculationType.basicCal.firstNumber * selCal.calculationType.basicCal.secondNumber)}
     else if (selCal.calculationType.basicCal === "Divide")           {console.log(selCal.calculationType.basicCal.firstNumber / selCal.calculationType.basicCal.secondNumber)}
