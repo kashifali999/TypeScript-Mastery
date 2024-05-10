@@ -27,12 +27,7 @@ else                                                          {let bmi = await i
     else if (selCal.calculationType.advCal === "Exponentiation")     {console.log(selCal.calculationType.advCal.firstNumber ** selCal.calculationType.advCal.secondNumber)}
     else if (selCal.calculationType.advCal === "Modulus")            {console.log(selCal.calculationType.advCal.firstNumber % selCal.calculationType.advCal.secondNumber)}
 
-
-
-
-
-
-
+    
 
 /*
 import inquierer from "inquirer"
