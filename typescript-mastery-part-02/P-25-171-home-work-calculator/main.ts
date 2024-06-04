@@ -1,4 +1,5 @@
 import inquirer from "inquirer"
+import chalk from "chalk"
 let result = await inquirer.prompt([
     {name : "firstNumber", type : "number", message : "Enter first number"},
     {name : "secondNumber", type : "number", message : "Enter second number"},
