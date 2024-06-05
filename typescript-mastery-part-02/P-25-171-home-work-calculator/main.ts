@@ -10,4 +10,4 @@ if      (result.operator === "Add")         {console.log("Your result is " + (re
 else if (result.operator === "Subtract")    {console.log("Your result is " + (result.firstNumber - result.secondNumber))}
 else if (result.operator === "Multiply")    {console.log("Your result is " + (result.firstNumber * result.secondNumber))}
 else                                        {console.log("Your result is " + (result.firstNumber / result.secondNumber))}
-//End
+//End.
