@@ -4,6 +4,7 @@
 }
 halfFryEgg()*/
 
+//177
 /*function halfFryEgg():number {
     let cocked = 1 + 1.5 + 2
     return cocked
@@ -11,8 +12,16 @@ halfFryEgg()*/
 let response:number = halfFryEgg()
 console.log(response)*/
 
-function addNumber(a:number, b:number):number {
+//182
+/*function addNumber(a:number, b:number):number {
     return a + b
 }
 let response = addNumber(3, 5)
-console.log(response)
+console.log(response)*/
+
+//183
+function calculateArea(height, width):number{
+    return height * width
+}
+let response = calculateArea(100, 150)
+console.log(response);
