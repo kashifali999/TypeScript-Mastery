@@ -6,15 +6,15 @@ let result = await inquirer.prompt([
     { name: "operator", type: "list", message: "Enter operator", choices: ["Add", "Subtract", "Multiply", "Divide"] }
 ]);
 if (result.operator === "Add") {
-    console.log(chalk.green("\n\tYour result is " + (result.firstNumber + result.secondNumber)));
+    console.log("Your result is " + (result.firstNumber + result.secondNumber));
 }
 else if (result.operator === "Subtract") {
-    console.log(chalk.blue("\n\tYour result is " + (result.firstNumber - result.secondNumber)));
+    console.log("Your result is " + (result.firstNumber - result.secondNumber));
 }
 else if (result.operator === "Multiply") {
-    console.log(chalk.red("\n\tYour result is " + (result.firstNumber * result.secondNumber)));
+    console.log("Your result is " + (result.firstNumber * result.secondNumber));
 }
 else {
-    console.log(chalk.bgGray("\n\tYour result is " + (result.firstNumber / result.secondNumber)));
+    console.log("Your result is " + (result.firstNumber / result.secondNumber));
 }
 //End
