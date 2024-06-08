@@ -20,8 +20,15 @@ let response = addNumber(3, 5)
 console.log(response)*/
 
 //183
-function calculateArea(height, width):number{
+/*function calculateArea(height, width):number{
     return height * width
 }
 let response = calculateArea(100, 150)
-console.log(response);
+console.log(response)*/
+
+//190
+function halfFryEgg(egg:number, ...ingrediants:number[]){
+    console.log(egg)
+    console.log(...ingrediants)
+}
+halfFryEgg(1, 3, 2.5, 6.5)
