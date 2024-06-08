@@ -3,9 +3,14 @@
     console.log(cocked)
 }
 halfFryEgg()*/
-function halfFryEgg() {
-    var cocked = 1 + 1.5 + 2;
-    return cocked;
+/*function halfFryEgg():number {
+    let cocked = 1 + 1.5 + 2
+    return cocked
 }
-var response = halfFryEgg();
+let response:number = halfFryEgg()
+console.log(response)*/
+function addNumber(a, b) {
+    return a + b;
+}
+var response = addNumber(3, 5);
 console.log(response);
