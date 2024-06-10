@@ -35,6 +35,9 @@ halfFryEgg(1, 3, 2.5, 6.5)*/
 
 //194
 /*Arrow function*/
-let halfFryEgg = () => 1 + 1.5 + 3
-let response:number = halfFryEgg()
+let halfFryEgg = (egg:number, butter:number, salt:number) => {
+    let cocked:number = egg + butter + salt
+    return cocked 
+}
+let response = halfFryEgg(1, 1.5, 3)
 console.log(response);
