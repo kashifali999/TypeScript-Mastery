@@ -27,8 +27,11 @@ let response = calculateArea(100, 150)
 console.log(response)*/
 
 //190
-function halfFryEgg(egg:number, ...ingrediants:number[]){
+/*function halfFryEgg(egg:number, ...ingrediants:number[]){
     console.log(egg)
     console.log(...ingrediants)
 }
-halfFryEgg(1, 3, 2.5, 6.5)
+halfFryEgg(1, 3, 2.5, 6.5)*/
+
+//194
+/*Arrow function*/
