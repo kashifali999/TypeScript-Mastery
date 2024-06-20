@@ -4,3 +4,4 @@ var halfFryEgg = function () {
     console.log(cocked);
 };
 halfFryEgg();
+
